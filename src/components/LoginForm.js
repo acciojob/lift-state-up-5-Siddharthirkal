@@ -17,7 +17,7 @@ function LoginForm({onLogin}){
             </div>
 
             <div style={{marginBottom:"10px"}}>
-                <label>password: </label>
+                <label>Password: </label>
                 <input type="password" value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 />
